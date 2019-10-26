@@ -1,0 +1,50 @@
+.login_form{
+    font-size: 15px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-family: "맑은 고딕";
+    margin-top: 130px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.login_table {
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: "맑은 고딕";
+    text-align: center;
+    padding: 5px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.legend {
+    float: right;
+    text-align: right
+}
+
+.label {
+    float: left;
+    text-align:  left;
+}
+
+.login_button {
+    size: 20px;
+    float: middle;
+    width: 80px; 
+    height: 30px;
+    background-color: #148CFF; 
+    border-width: 0;
+    color: white;
+    float: center;
+    margin-top: 10px;
+}
+
+#id_gubun {
+    height: 22px;
+}

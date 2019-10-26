@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+    <title>:: KwangWoon University U-Learning System ::</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="student_css.css">
+    <!-- 학부생 홈페이지 -->
+</head>
+<body style="width: 1080px; height: 600px;">
+    <div id="logo">
+        <img src="mark.png" width="165px" alt="u-campus">
+    </div>
+    <div id="logout">
+        <label id="label_logout">로그아웃</label>
+    </div>
+    <div id="left_sidebar" style="padding: 5px 5px"> <!--학번, 구분-->
+        <label style="size: 14pt;">학부생 (2017203028)</label>
+    </div>
+    <div id="hidden_box">
+        <img src="totalinfo.gif" alt="u-campus">
+    </div>
+    <br>
+    <div id="menubar">
+        <table style="margin:auto;">
+            <thead>
+                <th style="padding-top: 5px; padding-bottom: 30px">강의종합정보</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding-bottom: 20px; font-size: 0.9em;">강의자료실</td>
+                 </tr>
+                 <tr>
+                     <td style="font-size: 0.9em;">수강신청 관리</td>
+                 </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="middle">
+        <table style="width: 780px;">
+            <thead>
+                <th id="list_th" style="padding: 5px 30px 5px 0xp; margin-right: 20px;">강의자료  |</th>
+                <td style="text-align: right; font-size: 60%; padding-right: 15px;"><img src="home.gif" alt="home">&nbsp;&nbsp;>  학습자료실  >  강의자료</td>
+            </thead>
+        </table>
+        <b style="font-size: 0.85em; padding: 5px 30px 5px 0xp;">
+                과목정보:[학부]<label name="과목정보">컴퓨터구조 (02)-이동호</label></b>
+        <table class="class_info">
+            <tbody>
+                    <td><select id="id_semester" name="semester">
+                            <option value="semester1" selected>2019년도 1학기</option>
+                            <option value="semester2">2018년도 2학기</option>
+                            <option value="semester3">2018년도 1학기</option>
+                            <option value="semester4">2017년도 2학기</option>
+                            <option value="semester5">2017년도 1학기</option>
+                        </select>
+                    </td>
+                    <!-- <td></td> -->
+                    <td><select id="id_class_name" name="class_name">
+                            <option value="class1" selected>알고리즘 (02) - 김용혁</option>
+                            <option value="class2">운영체제 (01) - 진혜진</option>
+                            <option value="class3">컴퓨터구조 (02) - 이동호</option>
+                            <option value="class4">데이터베이스 (01) - 김우생</option>
+                            <option value="class5">일러스트레이션 (01) - 김문석</option>
+                            <option value="class5">응용소프트웨어실습 (03) - 이강훈</option>
+                        </select>
+                     </td>
+                     <td></td>
+                     <td class="button"><button type="button">Go</button></td>
+                    </tr>
+            </tbody>
+        </table>
+        <table style="width: 760px;"> 
+                <!-- 동적으로 생성 필요 -->
+            <tbody>
+                <tr>
+                    <td id="table_top">선택</td>
+                    <td id="table_top">No</td>
+                    <td id="table_top">제목</td>
+                    <td id="table_top">등록일</td>
+                    <td id="table_top">보기</td>
+                    <td id="table_top">조회수</td>
+                </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="checkbox"></td>
+                    <td id="table_content"><label>10</label></td>
+                    <td id="table_content"><label>Chapter 10 </label></td>
+                    <td id="table_content"><label>2019.05.25</label></td>
+                    <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                    <td id="table_content"><label>172</label></td>
+                </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="checkbox"></td>
+                    <td id="table_content"><label>9</label></td>
+                    <td id="table_content"><label>Chapter 9 </label></td>
+                    <td id="table_content"><label>2019.05.23</label></td>
+                    <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                    <td id="table_content"><label>9</label></td>
+                </tr>
+                <tr class="file_list">
+                        <td id="table_content"><input type="checkbox"></td>
+                        <td id="table_content"><label>8</label></td>
+                        <td id="table_content"><label>Chapter 8 </label></td>
+                        <td id="table_content"><label>2019.05.15</label></td>
+                        <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                        <td id="table_content"><label>41</label></td>
+                    </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="checkbox"></td>
+                    <td id="table_content"><label>7</label></td>
+                    <td id="table_content"><label>Chapter 7 </label></td>
+                    <td id="table_content"><label>2019.05.01</label></td>
+                    <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                    <td id="table_content"><label>58</label></td>
+                </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="checkbox"></td>
+                    <td id="table_content"><label>6</label></td>
+                    <td id="table_content"><label>Chapter 6 </label></td>
+                    <td id="table_content"><label>2019.04.29</label></td>
+                    <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                    <td id="table_content"><label>42</label></td>
+                </tr>
+                <tr class="file_list">
+                        <td id="table_content"><input type="checkbox"></td>
+                        <td id="table_content"><label>5</label></td>
+                        <td id="table_content"><label>Chapter 5 </label></td>
+                        <td id="table_content"><label>2019.04.17</label></td>
+                        <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                        <td id="table_content"><label>53</label></td>
+                    </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="checkbox"></td>
+                    <td id="table_content"><label>4</label></td>
+                    <td id="table_content"><label>Chapter 4 </label></td>
+                    <td id="table_content"><label>2019.03.25	</label></td>
+                    <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                    <td id="table_content"><label>99</label></td>
+                </tr>
+                <tr class="file_list">
+                        <td id="table_content"><input type="checkbox"></td>
+                        <td id="table_content"><label>3</label></td>
+                        <td id="table_content"><label>Chapter 3 </label></td>
+                        <td id="table_content"><label>2019.03.13	</label></td>
+                        <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                        <td id="table_content"><label>128</label></td>
+                    </tr>
+                    <tr class="file_list">
+                            <td id="table_content"><input type="checkbox"></td>
+                            <td id="table_content"><label>2</label></td>
+                            <td id="table_content"><label>Chapter 2 </label></td>
+                            <td id="table_content"><label>2019.03.04</label></td>
+                            <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                            <td id="table_content"><label>145</label></td>
+                        </tr>
+                    <tr class="file_list">
+                        <td id="table_content"><input type="checkbox"></td>
+                        <td id="table_content"><label>1</label></td>
+                        <td id="table_content"><label>Chapter 1 </label></td>
+                        <td id="table_content"><label>2019.03.04</label></td>
+                        <td id="table_content"><img src="ico_ppt.gif" alt="ppt"></td>
+                        <td id="table_content"><label>162</label></td>
+                    </tr>
+            </tbody>
+        </table>
+        <div class="page" align="center">
+            <img src="left_arrow.gif" style="padding-top: 6px;">&nbsp;&nbsp;
+            <b>[1]</b>
+            <a href="go2">[2]</a>&nbsp;&nbsp;
+            <img src="right_arrow.gif" style="padding-top: 6px;">
+        </div>
+    </div>
+</body>

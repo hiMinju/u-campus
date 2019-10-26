@@ -1,0 +1,260 @@
+#left_sidebar{
+    width: 200px;
+    height: 60px;
+    background-color:rgb(74, 81, 117, 0.9);
+    text-align:center;
+    color: aliceblue;
+    padding: 10px 3px;
+    margin-bottom: 5px;
+    size: 18pt;
+    float: left;
+
+}
+
+#hidden_box {
+    display: hidden;
+    width: 780px;
+    height: 78px;
+    float: left;
+    margin-left: 15px;
+}
+
+#logo {
+    width: 200px;
+    height: 50px;
+    padding: 5px 3px 10px 3px;
+    float: left;
+    text-align: center;
+    display: hidden;
+}
+
+#logout {
+    width: 790px;
+    height: 68px;
+    float: left;
+    margin-left: 15px;
+    text-align: right;
+    color: #B22222;
+    font: 0.9em sans-serif;
+    font-weight: bold;
+}
+
+#middle {
+    /* background-color: #eff6f9; */
+    border: 1px solid #636340;
+    width: 770px;
+    height: 70%;
+    float: left;
+    padding: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+#menubar {
+    background-color: #d0e5ee;
+    width: 204px;
+    height: 70%;
+    padding: 10px 3px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    font-family:"굴림";
+    border: 1px solid #444444;
+}
+
+#list_th {
+    color:#0B4E90;
+    text-align: left;
+}
+
+.main_line {
+    height: 0.1px;
+    width: 780px;
+    border: 1px solid rgb(19, 98, 177);
+    background-color: rgb(19, 98, 177);
+}
+
+.list {
+    font-size: 10pt;
+}
+
+.table_list td {
+    padding: 7px 30px 0px 0px;
+    font-size: 0.9em;
+}
+
+.t1_line31 {
+    background-color: #93b2e0;
+    height: 3px;
+}
+
+.t1_line30 {
+    background-color: #93b2e0;
+    height: 2px;
+}
+
+.t1_tit_left {
+    font-size: 9pt;
+    color: #5572c3;
+    text-align: center;
+    font-weight: bold;
+    Background-color: #edf4fd;
+    padding: 7px 0px 5px 0px;
+    border-bottom: 1px dashed gray;
+}
+
+.tk_left {
+    padding: 7px 0px 5px 10px;
+    color: #636363;
+    border-bottom: 1px dashed gray;
+}
+
+input {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+table {
+    border-collapse: separate;
+    /* border-spacing: 2px; */
+}
+
+.editor_holder {
+    width: 580px;
+    height: 250px;
+    display: none;
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #636363;
+    border-image: initial;
+    padding: 2px;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-spacing: 2px;
+}
+
+#post {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 3px;
+}
+
+.fs8_b {
+    font-size: 8pt;
+    color: #305ebb;
+}
+
+.padding_r5 {
+    padding: 0px 5px 0px 0px;
+}
+
+.input2 {
+    font-size: 9pt;
+    color: #666666;
+    border: 1px solid #cccccc;
+    padding: 3px 0px 0px 2px;
+    Background-color: FFFFFF;
+}
+
+.t1_line1{
+    background-color: #93b2e0;
+    height: 1px;
+}
+
+.t1_line3{
+    background-color: #ecf9fc;
+    height: 3px;
+}
+
+#button {
+    /* width: 90px; */
+    font-size: 0.7em;
+}
+
+#button button {
+    background-color: whitesmoke; 
+    color: #404040;
+}
+
+#div_button {
+    width: 680px;
+    text-align: right;
+    margin-bottom: 3px;
+}
+
+.list_head {
+    font-size: 9pt;
+    color: #5572c3;
+    text-align: center;
+    font-weight: bold;
+    Background-color: #edf4fd;
+    padding: 7px 0px 5px 0px;
+}
+
+.sms_holder {
+    width: 400px;
+    height: 200px;
+    display: none;
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #93b2e0;
+    border-image: initial;
+    padding: 2px;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-spacing: 2px;
+}
+
+#table_content{
+    font-size: 0.85em;
+}
+
+#sms_list {
+    border: 1px solid #93b2e0;
+    width: 680px;
+    text-align: center;
+    font-size: 0.9em;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title>:: KwangWoon University U-Learning System ::</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="professor_register.css">
+    <!-- 교수 홈페이지 -->
+</head>
+<body style="width: 1080px; height: 600px;">
+    <div id="logo">
+        <img src="mark.png" width="165px" alt="u-campus">
+    </div>
+    <div id="logout">
+        <label id="label_logout">로그아웃</label>
+    </div>
+    <div id="left_sidebar" style="padding: 5px 5px"> <!--학번, 구분-->
+        <label style="size: 14pt;">교수 (0000000000))</label>
+    </div>
+    <div id="hidden_box">
+        <img src="totalinfo.gif" alt="u-campus">
+    </div>
+    <br>
+    <div id="menubar">
+        <table style="margin:auto;">
+            <thead>
+                <th style="padding-top: 5px; padding-bottom: 30px">강의종합정보</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding-bottom: 20px; font-size: 0.9em;">강의자료실</td>
+                 </tr>
+                 <tr>
+                     <td style="font-size: 0.9em;">수강신청 관리</td>
+                 </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="middle">
+        <table style="width: 780px;">
+            <thead>
+                <th id="list_th" style="padding: 5px 30px 5px 0xp; margin-right: 20px;">수강생 관리  |</th>
+                <td style="text-align: right; font-size: 60%; padding-right: 15px;"><img src="home.gif" alt="home">&nbsp;&nbsp;>  수강생 관리  >  수강생 관리</td>
+            </thead>
+        </table>
+        <b style="font-size: 0.85em; padding: 5px 30px 5px 0xp;">
+            과목정보:[학부]<label name="과목정보">과목정보:[학부]데이터베이스 (01)</label></b>
+        <table class="class_info">
+            <tbody>
+                <tr>
+                    <td><select id="id_semester" name="semester">
+                            <option value="semester1" selected>2019년도 1학기</option>
+                            <option value="semester2">2018년도 2학기</option>
+                            <option value="semester3">2018년도 1학기</option>
+                            <option value="semester4">2017년도 2학기</option>
+                            <option value="semester5">2017년도 1학기</option>
+                        </select>
+                    </td>
+                    <td><select id="id_class_name" name="class_name">
+                            <option value="class1" selected>[학부]데이터베이스 (01)</option>
+                            <option value="class2">[학부]데이터베이스 (02)</option>
+                            <option value="class3">[학부]데이터베이스응용 (01)</option>
+                            <option value="class4">[학부]캡스톤설계1(01)</option>
+                            <option value="class5">[학부]소프트웨어실습2</option>
+                        </select>
+                        </td>
+                        <td></td>
+                        <td class="button"><button type="button">Go</button></td>
+                </tr>
+                <tr><td style="height: 10px"></td></tr>
+            </tbody>
+        </table>
+        <div id="div_button">
+            <button type="button" id="button">전체선택/해제</button></td>
+            <button type="button" id="button">메일보내기</button></td>
+            <button type="button" id="button">SMS</button></td>
+        </div>
+        <table width="680" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td class="mid2">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody><tr><td class="t1_line30"></td></tr></tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 680px; text-align: center; font-size: 0.9em;">
+            <thead>
+                <tr>
+                    <td class="list_head">선택</td>
+                    <td class="list_head">NO</td>
+                    <td class="list_head">소속</td>
+                    <td class="list_head">학년</td>
+                    <td class="list_head">이름</td>
+                    <td class="list_head">이메일</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="file_list">
+                    <td id="table_content"><input type="checkbox"></td>
+                    <td id="table_content">1</td>
+                    <td id="table_content">광운대학교/소프트웨어학부</td>
+                    <td id="table_content">3</td>
+                    <td id="table_content">김민주</td>
+                    <td id="table_content">minjuyoubin@naver.com</td>
+                </tr>
+                <tr class="file_list">
+                        <td id="table_content"><input type="checkbox"></td>
+                        <td id="table_content">2</td>
+                        <td id="table_content">광운대학교/소프트웨어학부</td>
+                        <td id="table_content">3</td>
+                        <td id="table_content">최장신</td>
+                        <td id="table_content">elsiff1002@naver.com</td>
+                    </tr>
+                    <tr class="file_list">
+                        <td id="table_content"><input type="checkbox"></td>
+                        <td id="table_content">3</td>
+                        <td id="table_content">광운대학교/소프트웨어학부</td>
+                        <td id="table_content">3</td>
+                        <td id="table_content">얄루진하찡</td>
+                        <td id="table_content">horseesroh@naver.com</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</body>

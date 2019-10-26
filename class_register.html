@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>:: KwangWoon University U-Learning System ::</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="student_css.css">
+    <!-- 학부생 홈페이지 -->
+</head>
+<body style="width: 1080px; height: 800px;">
+    <div id="logo">
+        <img src="mark.png" width="165px" alt="u-campus">
+    </div>
+    <div id="logout">
+        <label id="label_logout">로그아웃</label>
+    </div>
+    <div id="left_sidebar" style="padding: 5px 5px"> <!--학번, 구분-->
+        <label style="size: 14pt;">학부생 (2017203028)</label>
+    </div>
+    <div id="hidden_box">
+        <img src="totalinfo.gif" alt="u-campus">
+    </div>
+    <br>
+    <div id="menubar">
+        <table style="margin:auto;">
+            <thead>
+                <th style="padding-top: 5px; padding-bottom: 30px">강의종합정보</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding-bottom: 20px; font-size: 0.9em;">강의자료실</td>
+                 </tr>
+                 <tr>
+                     <td style="font-size: 0.9em;">수강신청 관리</td>
+                 </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="register_middle" style="overflow:auto;">
+        <table style="width: 780px;">
+            <thead>
+                <th id="list_th" style="padding: 5px 30px 5px 0xp; margin-right: 20px;">수강신청  |</th>
+                <td style="text-align: right; font-size: 60%; padding-right: 15px;"><img src="home.gif" alt="home">&nbsp;&nbsp;>  수강신청 관리  >  수강신청</td>
+            </thead>
+        </table>
+        <b style="font-size: 0.85em; padding: 5px 30px 5px 0xp;">2019학년도 1학기 수강과목</b>
+        <table style="width: 600px;"> 
+            <!-- 동적으로 생성 필요 -->
+            <tbody>
+                    <td id="table_top">선택</td>
+                    <td id="table_top">학정번호</td>
+                    <td id="table_top">과목명</td>
+                    <td id="table_top">교수</td>
+                </th>
+                <tr class="file_list">
+                    <td id="table_content"><input type="radio"></td>
+                    <td id="table_content"><label>H030-3-0969-02</label></td>
+                    <td id="table_content"><label>알고리즘</label></td>
+                    <td id="table_content"><label>김용혁</label></td>
+                </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="radio"></td>
+                    <td id="table_content"><label>H030-3-3663-01</label></td>
+                    <td id="table_content"><label>데이터베이스</label></td>
+                    <td id="table_content"><label>김우생</label></td>
+                </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="radio"></td>
+                    <td id="table_content"><label>H030-3-8485-03</label></td>
+                    <td id="table_content"><label>응용소프트웨어실습</label></td>
+                    <td id="table_content"><label>이강훈</label></td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="width: 600px; text-align: right;">
+            <form style="width: 50px; margin-top: 10px; padding-left: 530px;">
+                <input type='submit' value="삭제">
+            </form>
+        </div>
+        <br>
+        <b style="font-size: 0.85em; padding: 5px 30px 5px 0xp;">2019학년도 1학기 수강신청 가능 목록</b>
+        <table style="width: 600px;"> 
+            <!-- 동적으로 생성 필요 -->
+            <tbody>
+                <tr>
+                    <td id="table_top">선택</td>
+                    <td id="table_top">학정번호</td>
+                    <td id="table_top">과목명</td>
+                    <td id="table_top">교수</td>
+                </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="radio"></td>
+                    <td id="table_content"><label>H030-3-1110-01</label></td>
+                    <td id="table_content"><label>운영체제</label></td>
+                    <td id="table_content"><label>진혜진</label></td>
+                </tr>
+                <tr class="file_list">
+                    <td id="table_content"><input type="radio"></td>
+                    <td id="table_content"><label>H030-3-1647-02</label></td>
+                    <td id="table_content"><label>컴퓨터구조</label></td>
+                    <td id="table_content"><label>이동호</label></td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <div style="width: 600px; text-align: right;">
+            <form style="width: 50px; margin-top: 10px; padding-left: 530px;">
+                <input type='submit' value="신청">
+            </form>
+        </div>
+    </div>
+</body>

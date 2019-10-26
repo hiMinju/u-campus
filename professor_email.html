@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <title>:: KwangWoon University U-Learning System ::</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="professor_register.css">
+    <!-- 교수 홈페이지 -->
+</head>
+<body style="width: 1080px; height: 800px;">
+    <div id="logo">
+        <img src="mark.png" width="165px" alt="u-campus">
+    </div>
+    <div id="logout">
+        <label id="label_logout">로그아웃</label>
+    </div>
+    <div id="left_sidebar" style="padding: 5px 5px"> <!--학번, 구분-->
+        <label style="size: 14pt;">교수 (0000000000))</label>
+    </div>
+    <div id="hidden_box">
+        <img src="totalinfo.gif" alt="u-campus">
+    </div>
+    <br>
+    <div id="menubar">
+        <table style="margin:auto;">
+            <thead>
+                <th style="padding-top: 5px; padding-bottom: 20px">강의종합정보</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding-bottom: 12px">강의자료실</td>
+                </tr>
+                <tr>
+                    <td>수강생 관리</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="middle">
+        <table style="width: 780px; margin-bottom: 15px;">
+            <thead>
+                <th id="list_th" style="padding: 5px 30px 5px 0xp; margin-right: 20px;">수강생 관리  |</th>
+                <td style="text-align: right; font-size: 60%; padding-right: 15px;"><img src="home.gif" alt="home">&nbsp;&nbsp;>  수강생 관리  >  수강생 관리</td>
+            </thead>
+        </table>
+        <table width="680" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td class="mid2">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody><tr><td class="t1_line31"></td></tr></tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="post" width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td width="80" class="t1_tit_left" nowrap="nowrap">제목</td>
+                    <td class="tk_left">
+                        <input name="p_title" type="text" class="input2" id="textarea2" size="87" maxlength="60">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="t1_tit_left">내용</td>
+                    <td class="tk_left">
+                        <textarea class="editor_holder" name="p_content" id="p_content" aria-hidden="true"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="t1_tit_left" style="border-bottom: 1px solid #93b2e0;">첨부파일</td>
+                    <td class="tk_left" style="border-bottom: 1px solid #93b2e0;">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="padding_r5">
+                                        <input name="p_upfile" type="file" class="input2"
+                                        id="textfield23" size="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="padding_r5">
+                                        <input name="p_upfile" type="file" class="input2"
+                                        id="textfield23" size="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="padding_r5">
+                                        <input name="p_upfile" type="file" class="input2"
+                                        id="textfield23" size="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="div_button">
+            <button type="button" id="button">메일 발송</button></td>
+            <button type="button" id="button">다시</button></td>
+        </div>
+        <div style="color:#0B4E90; font-size: 0.9em;">발송 명단</div>
+        <table id="sms_list">
+            <thead>
+                <tr>
+                    <td class="list_head">NO</td>
+                    <td class="list_head">이름</td>
+                    <td class="list_head">핸드폰</td>
+                    <td class="list_head">이메일</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="table_content">1</td>
+                    <td id="table_content">김민주</td>
+                    <td id="table_content">010-4163-2033</td>
+                    <td id="table_content">minjuyoubin@naver.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>

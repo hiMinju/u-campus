@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+    <title>:: KwangWoon University U-Learning System ::</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="professor_register.css">
+    <!-- 교수 홈페이지 -->
+</head>
+<body style="width: 1080px; height: 850px;">
+    <div id="logo">
+        <img src="mark.png" width="165px" alt="u-campus">
+    </div>
+    <div id="logout">
+        <label id="label_logout">로그아웃</label>
+    </div>
+    <div id="left_sidebar" style="padding: 5px 5px"> <!--학번, 구분-->
+        <label style="size: 14pt;">교수 (0000000000))</label>
+    </div>
+    <div id="hidden_box">
+        <img src="totalinfo.gif" alt="u-campus">
+    </div>
+    <br>
+    <div id="menubar">
+        <table style="margin:auto;">
+            <thead>
+                <th style="padding-top: 5px; padding-bottom: 20px">강의종합정보</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding-bottom: 12px">강의자료실</td>
+                </tr>
+                <tr>
+                    <td>수강생 관리</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="middle">
+        <table style="width: 780px;">
+            <thead>
+                <th id="list_th" style="padding: 5px 30px 5px 0xp; margin-right: 20px;">강의자료  |</th>
+                <td style="text-align: right; font-size: 60%; padding-right: 15px;"><img src="home.gif" alt="home">&nbsp;&nbsp;>  학습자료실  >  강의자료</td>
+            </thead>
+        </table>
+        <b style="font-size: 0.85em; padding: 5px 30px 5px 0xp;">
+            과목정보:[학부]<label name="과목정보">과목정보:[학부]데이터베이스 (01)</label></b>
+        <table class="class_info">
+            <tbody>
+                <tr>
+                    <td><select id="id_semester" name="semester">
+                            <option value="semester1" selected>2019년도 1학기</option>
+                            <option value="semester2">2018년도 2학기</option>
+                            <option value="semester3">2018년도 1학기</option>
+                            <option value="semester4">2017년도 2학기</option>
+                            <option value="semester5">2017년도 1학기</option>
+                        </select>
+                    </td>
+                    <td><select id="id_class_name" name="class_name">
+                            <option value="class1" selected>[학부]데이터베이스 (01)</option>
+                            <option value="class2">[학부]데이터베이스 (02)</option>
+                            <option value="class3">[학부]데이터베이스응용 (01)</option>
+                            <option value="class4">[학부]캡스톤설계1(01)</option>
+                            <option value="class5">[학부]소프트웨어실습2</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td class="button"><button type="button">Go</button></td>
+                </tr>
+                <tr><td style="height: 10px"></td></tr>
+            </tbody>
+        </table>
+        <table width="680" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td class="mid2">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody><tr><td class="t1_line31"></td></tr></tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="post" width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td width="80" class="t1_tit_left" nowrap="nowrap">제목</td>
+                    <td class="tk_left">
+                        <input name="p_title" type="text" class="input2" id="textarea2" size="87" maxlength="60">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="t1_tit_left">내용</td>
+                    <td class="tk_left">
+                        <textarea class="editor_holder" name="p_content" id="p_content" aria-hidden="true"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="t1_tit_left" style="border-bottom: 1px solid #93b2e0;">첨부파일</td>
+                    <td class="tk_left" style="border-bottom: 1px solid #93b2e0;">
+                        <span class="fs8_b">
+                            용량 제한은 30Mbyte 입니다.
+                        </span>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="padding_r5">
+                                        <input name="p_upfile" type="file" class="input2"
+                                        id="textfield23" size="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="padding_r5">
+                                        <input name="p_upfile" type="file" class="input2"
+                                        id="textfield23" size="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="padding_r5">
+                                        <input name="p_upfile" type="file" class="input2"
+                                        id="textfield23" size="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="padding_r5">
+                                        <input name="p_upfile" type="file" class="input2"
+                                        id="textfield23" size="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td class="padding_r5">
+                                        <input name="p_upfile" type="file" class="input2"
+                                        id="textfield23" size="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="div_button">
+            <button type="button" id="button">등록</button></td>
+            <button type="button" id="button">다시</button></td>
+            <button type="button" id="button">삭제</button></td>
+        </div>
+    </div>
+</body>
